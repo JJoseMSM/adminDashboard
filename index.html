@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/f94c9c74cc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
+<body>  
+
+        <div class="sidebar">
+            <h1><i class="fa-regular fa-clipboard" style="color: #ffffff; padding-right: 10px;"></i>Dashboard</h1>
+            
+            <div class="dashboardList">
+                <ul>
+                    <li class="dashList"><i class="fa-solid fa-house" style="color: #ffffff;"></i>Home</li>
+                    <li class="dashList"><i class="fa-solid fa-user" style="color: #ffffff;"></i><span></span>Profile</li>
+                    <li class="dashList"><i class="fa-solid fa-message" style="color: #ffffff;"></i>Messages</li>
+                    <li class="dashList"><i class="fa-solid fa-clock" style="color: #ffffff;"></i>History</li>
+                    <li class="dashList"><i class="fa-solid fa-list-check" style="color: #ffffff;"></i>Tasks</li>
+                    <li class="dashList"><i class="fa-solid fa-user-group" style="color: #ffffff;"></i>Communities</li>
+                </ul>
+
+                <ul class="secondList">
+                    <li class="dashList"><i class="fa-solid fa-gear" style="color: #ffffff;"></i>Settings</li>
+                    <li class="dashList"><i class="fa-solid fa-headset" style="color: #ffffff;"></i>Support</li>
+                    <li class="dashList"><i class="fa-solid fa-shield" style="color: #ffffff;"></i>Security</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header">
+            <div class="searchbar">
+                <i class="fa-solid fa-magnifying-glass" style="color: #000000;position: absolute; padding-top: 27px; cursor: pointer;"></i>   <input type="text">
+            </div>
+            <div class="searchbarRight">
+                <i class="fa-solid fa-bell" style="color: #000000;"></i>
+                <img class="topPfp" src="./img/fallout_4_power_armor_2015-wallpaper-1280x1024.jpg" alt="">
+                <p class="topName">José Manuel Sánchez Medina</p>
+            </div>
+            
+            <div class="headerBottom">
+                <img src="./img/fallout_4_power_armor_2015-wallpaper-1280x1024.jpg" alt="" class="bottomPfp">
+                <ul class="bottomName">
+                    <li class="bottomName">Hi there,</li>
+                    <li class="bottomName" style="font-size: 25px;">José (@JoséMSM)</li>
+                </ul>
+            </div>
+
+            <div class="buttonSection">
+                <button class="buttonBtm">New</button>
+                <button class="buttonBtm">Upload</button>
+                <button class="buttonBtm">Search</button>
+            </div>
+            
+        </div>
+
 </body>
 </html>
