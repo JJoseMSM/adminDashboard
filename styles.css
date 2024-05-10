@@ -132,3 +132,57 @@ input {
     color: #020617;
     border: #020617 1px solid;
 }
+
+.main {
+    background-color: #d1d5db;
+    display: grid;
+    grid-template-columns: 550px 550px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cardMain {
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.cardText {
+    padding-right: 20px;
+}
+
+.cardMainSide {
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 20px;
+    grid-row: 2/4;
+    grid-column: 3/3;
+}
+
+.announcementsImg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 10px;
+ 
+}
+
+.trendingTxt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    display: block;
+
+}
+
+span {
+    position: relative;
+    display: block;
+
+}
